@@ -1,3 +1,2 @@
-#!/bin/bash
-python3 make_db_init.py
-sqlite3 db_init.db < db_init.sql
+python make_db_init.py
+powershell -Command "Get-Content db_init.sql | sqlite3 db_init.db"
