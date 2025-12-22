@@ -4,7 +4,7 @@
  */
 
 // Путь к базе данных
-define('DB_PATH', __DIR__ . '/../data/students.db');
+define('DB_PATH', __DIR__ . '/data/students.db');
 
 // Функция для получения подключения к БД
 function getDB() {
